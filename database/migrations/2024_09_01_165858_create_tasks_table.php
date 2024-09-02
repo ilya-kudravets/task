@@ -21,6 +21,8 @@ return new class extends Migration
             $table->unsignedInteger('time_spent')->default(0);
             $table->timestamp('completed_at')->nullable();
             $table->timestamps();
+            $table->index('status');
+            $table->index('title');
         });
     }
 
