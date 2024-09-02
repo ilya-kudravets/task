@@ -8,7 +8,7 @@ use App\Models\Task;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
-class TaskPolicy
+final readonly class TaskPolicy
 {
     use HandlesAuthorization;
 

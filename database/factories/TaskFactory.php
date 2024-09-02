@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Task>
  */
-class TaskFactory extends Factory
+final class TaskFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
